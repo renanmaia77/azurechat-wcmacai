@@ -12,12 +12,12 @@ export const PromptHero = () => {
         </>
       }
       description={
-        "Prompt templates are statements or questions meant to help users get creative without having to come up with ideas from scratch."
+        "Um prompt para IA generativa é uma instrução ou pergunta que orienta a IA a produzir uma resposta ou conteúdo específico. Ter prompts pré-definidos garante consistência nas respostas, economiza tempo e esforço, além de melhorar a precisão e a relevância das respostas geradas."
       }
     >
       <HeroButton
-        title="Add New Prompt"
-        description="Build your own prompt template"
+        title="Adicionar um novo prompt"
+        description="Crie seu próprio template de promot"
         icon={<Book />}
         onClick={() => promptStore.newPrompt()}
       />
