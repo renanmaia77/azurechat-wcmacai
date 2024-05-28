@@ -20,8 +20,8 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "hsl(35, 89%, 59%)",
+          foreground: "hsl(0, 0%, 100%)", // Cor do texto alterada para branco
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
